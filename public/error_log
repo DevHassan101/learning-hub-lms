@@ -1,0 +1,1 @@
+[17-Mar-2025 06:27:42 UTC] PHP Fatal error:  Cannot use Illuminate\Support\Facades\Log as Log because the name is already in use in /home/sty1/public_html/nursing-lms/app/Http/Controllers/WebController.php on line 32
