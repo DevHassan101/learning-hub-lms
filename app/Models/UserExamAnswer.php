@@ -1,0 +1,15 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Model;
+
+class UserExamAnswer extends Model
+{
+    use HasFactory;
+    protected $guarded = ['id'];
+    public function examQuestion() {
+        return $this->belongsTo(ExamQuestion::class);
+    }
+}
